@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Justice For All – Social Injustice Non-Profit</title>
+  <!-- SEO & Performance Enhancements -->
+  <meta name="description" content="Justice For All is a non-profit organization dedicated to fighting social injustice and supporting the wrongfully convicted. Join us to make a difference.">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="site.js"></script>
+</head>
+<body class="relative min-h-screen bg-gradient-to-br from-red-900 via-blue-900 to-gray-900 overflow-x-hidden">
+  <div class="justice-texture"></div>
+  <!-- Mobile Nav Toggle -->
+  <button id="nav-toggle" class="md:hidden fixed top-6 right-6 z-50 bg-[#0a1833] text-white p-2 rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-red-600" aria-label="Open navigation">
+    <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+  </button>
+  <header class="relative z-10 flex items-center justify-between px-8 py-6 bg-opacity-80 bg-[#0a1833]/80 shadow-lg">
+    <div class="flex items-center gap-3">
+      <svg class="w-10 h-10 text-red-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m0 0c-4.418 0-8-3.582-8-8s3.582-8 8-8 8 3.582 8 8-3.582 8-8 8z"/></svg>
+      <span class="text-2xl font-bold tracking-tight text-white" style="font-family: 'Space Grotesk', sans-serif;">Justice For All</span>
+    </div>
+    <nav id="nav-menu" class="hidden md:flex gap-8 text-white font-medium" aria-label="Main navigation">
+      <a href="#mission" class="hover:text-red-400 transition">Our Mission</a>
+      <a href="#stories" class="hover:text-red-400 transition">Stories</a>
+      <a href="#get-involved" class="hover:text-red-400 transition">Get Involved</a>
+      <a href="#contact" class="hover:text-red-400 transition">Contact</a>
+    </nav>
+    <a href="#donate" class="ml-6 px-6 py-2 rounded-full bg-red-600 shadow-md hover:bg-red-700 transition text-white font-bold text-lg" style="font-family: 'Inter', sans-serif;">Donate</a>
+  </header>
+
+  <main class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 px-8 py-20 items-center">
+    <section class="flex flex-col gap-8">
+      <h1 class="text-5xl md:text-6xl font-extrabold text-white leading-tight" style="font-family: 'Satoshi', 'Space Grotesk', sans-serif;">
+        Fighting for Justice.<br />
+        <span class="text-red-500">Empowering the Wrongfully Convicted.</span>
+      </h1>
+      <p class="text-lg md:text-xl text-blue-100 max-w-xl" style="font-family: 'Inter', sans-serif;">
+        We are a non-profit organization dedicated to advocating for those who have been wrongfully convicted and fighting systemic social injustice. Join us in our mission to restore hope, dignity, and freedom.
+      </p>
+      <div class="flex gap-6 mt-4">
+        <a href="#get-involved" class="px-8 py-3 rounded-full bg-blue-800 shadow-lg hover:bg-blue-700 hover:shadow-xl transition text-white font-bold text-lg" style="font-family: 'Inter', sans-serif;">Get Involved</a>
+        <a href="#stories" class="px-8 py-3 rounded-full bg-red-600 shadow-lg hover:bg-red-700 hover:shadow-xl transition text-white font-bold text-lg" style="font-family: 'Inter', sans-serif;">Read Stories</a>
+      </div>
+    </section>
+    <section class="relative flex justify-center items-center">
+      <div class="relative w-full max-w-md aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl border-4 border-[#0a1833]">
+        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=600&q=80" alt="Candid prison moment" class="w-full h-full object-cover" loading="eager" />
+        <div class="absolute inset-0 bg-gradient-to-t from-blue-900/80 via-transparent to-red-700/40"></div>
+        <div class="absolute bottom-0 left-0 p-4">
+          <span class="bg-red-700/80 text-white px-3 py-1 rounded-full text-xs font-semibold shadow">Real Stories</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="mission" class="relative z-10 px-8 py-16 bg-[#0a1833]/90 text-white grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    <div>
+      <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'Space Grotesk', sans-serif;">Our Mission</h2>
+      <p class="text-lg md:text-xl text-blue-100" style="font-family: 'Inter', sans-serif;">
+        We work tirelessly to expose injustice, support the wrongfully convicted, and reform the criminal justice system. Through legal aid, advocacy, and public education, we strive to create a world where justice is truly for all.
+      </p>
+    </div>
+    <div class="flex flex-col gap-6">
+      <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Abstract justice texture" class="rounded-2xl shadow-lg border-2 border-red-700" loading="lazy" />
+      <img src="https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=600&q=80" alt="Court moment" class="rounded-2xl shadow-lg border-2 border-[#0a1833]" loading="lazy" />
+    </div>
+  </section>
+
+  <section id="stories" class="relative z-10 px-8 py-16 bg-gradient-to-r from-red-900 via-[#0a1833] to-blue-900 text-white">
+    <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center" style="font-family: 'Space Grotesk', sans-serif;">Stories of Hope</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div class="bg-[#0a1833]/80 rounded-2xl shadow-lg p-6 flex flex-col gap-4 border-t-4 border-red-600">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Prisoner released" class="rounded-xl h-40 w-full object-cover" loading="lazy" />
+        <h3 class="text-xl font-bold" style="font-family: 'Satoshi', sans-serif;">A New Beginning</h3>
+        <p class="text-blue-100">After 15 years of wrongful imprisonment, John was finally exonerated. Our legal team fought tirelessly to bring the truth to light.</p>
+      </div>
+      <div class="bg-[#0a1833]/80 rounded-2xl shadow-lg p-6 flex flex-col gap-4 border-t-4 border-red-600">
+        <img src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?auto=format&fit=crop&w=400&q=80" alt="Courtroom" class="rounded-xl h-40 w-full object-cover" loading="lazy" />
+        <h3 class="text-xl font-bold" style="font-family: 'Satoshi', sans-serif;">Justice Served</h3>
+        <p class="text-blue-100">Maria’s story inspired a movement for change after her conviction was overturned thanks to new evidence and community support.</p>
+      </div>
+      <div class="bg-[#0a1833]/80 rounded-2xl shadow-lg p-6 flex flex-col gap-4 border-t-4 border-red-600">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Support group" class="rounded-xl h-40 w-full object-cover" loading="lazy" />
+        <h3 class="text-xl font-bold" style="font-family: 'Satoshi', sans-serif;">Community of Hope</h3>
+        <p class="text-blue-100">We build a network of support for families and individuals affected by wrongful convictions, offering hope and resources.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="get-involved" class="relative z-10 px-8 py-16 bg-[#0a1833]/95 text-white flex flex-col md:flex-row gap-12 items-center justify-between">
+    <div class="flex-1">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'Space Grotesk', sans-serif;">Get Involved</h2>
+      <p class="text-lg md:text-xl text-blue-100 mb-6" style="font-family: 'Inter', sans-serif;">
+        Volunteer, donate, or partner with us to make a real difference. Your support helps us provide legal aid, advocacy, and hope to those who need it most.
+      </p>
+      <a href="#donate" class="inline-block px-8 py-3 rounded-full bg-red-600 shadow-lg hover:bg-red-700 hover:shadow-xl transition text-white font-bold text-lg" style="font-family: 'Inter', sans-serif;">Donate Now</a>
+    </div>
+    <div class="flex-1 flex justify-center">
+      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Volunteers" class="rounded-2xl shadow-xl border-2 border-red-700 w-80" loading="lazy" />
+    </div>
+  </section>
+
+  <!-- Impact Stats Section -->
+  <section class="relative z-10 px-8 py-16 bg-gradient-to-r from-blue-900 via-[#0a1833] to-red-900 text-white flex flex-col md:flex-row gap-12 items-center justify-between">
+    <div class="flex-1 flex flex-col md:flex-row gap-10 justify-center items-center">
+      <div class="flex flex-col items-center">
+        <span class="counter text-5xl font-extrabold text-red-500" data-target="120">0</span>
+        <span class="mt-2 text-lg font-semibold">Cases Won</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="counter text-5xl font-extrabold text-blue-400" data-target="350">0</span>
+        <span class="mt-2 text-lg font-semibold">People Helped</span>
+      </div>
+      <div class="flex flex-col items-center">
+        <span class="counter text-5xl font-extrabold text-yellow-400" data-target="25">0</span>
+        <span class="mt-2 text-lg font-semibold">Years of Service</span>
+      </div>
+    </div>
+    <div class="flex-1 flex flex-col gap-4 items-center md:items-end mt-10 md:mt-0">
+      <form class="w-full max-w-sm bg-[#0a1833]/80 p-6 rounded-2xl shadow-lg flex flex-col gap-4" name="newsletter" autocomplete="off">
+        <label for="newsletter-email" class="text-lg font-semibold">Subscribe to our Newsletter</label>
+        <input id="newsletter-email" type="email" required placeholder="Your email address" class="px-4 py-2 rounded-lg bg-gray-900 text-white border border-blue-900 focus:outline-none focus:ring-2 focus:ring-red-600" />
+        <button type="submit" class="px-6 py-2 rounded-full bg-red-600 shadow-md hover:bg-red-700 transition text-white font-bold text-lg">Subscribe</button>
+      </form>
+      <div class="flex gap-4 mt-4">
+        <a href="#" aria-label="Twitter" class="text-blue-400 hover:text-blue-200 transition"><svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.59-2.47.7a4.3 4.3 0 0 0 1.88-2.37 8.59 8.59 0 0 1-2.72 1.04A4.28 4.28 0 0 0 16.11 4c-2.37 0-4.29 1.92-4.29 4.29 0 .34.04.67.11.99C7.69 8.99 4.07 7.13 1.64 4.16c-.37.64-.58 1.39-.58 2.19 0 1.51.77 2.84 1.95 3.62-.72-.02-1.4-.22-1.99-.55v.06c0 2.11 1.5 3.87 3.5 4.27-.36.1-.74.16-1.13.16-.28 0-.54-.03-.8-.08.54 1.7 2.12 2.94 3.99 2.97A8.6 8.6 0 0 1 2 19.54c-.29 0-.57-.02-.85-.05A12.13 12.13 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.18 8.18 0 0 0 24 4.59a8.36 8.36 0 0 1-2.54.7z"/></a>
+        <a href="#" aria-label="Facebook" class="text-blue-600 hover:text-blue-400 transition"><svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0h-21.35C.6 0 0 .6 0 1.326v21.348C0 23.4.6 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.797.143v3.24l-1.92.001c-1.504 0-1.797.715-1.797 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.4 24 24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0"/></svg></a>
+        <a href="#" aria-label="Instagram" class="text-pink-400 hover:text-pink-200 transition"><svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.647 2.163 15.267 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.241-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.775.13 4.602.402 3.635 1.37 2.668 2.337 2.396 3.51 2.338 4.788.013 8.332 0 8.741 0 12c0 3.259.013 3.668.072 4.948.058 1.277.33 2.45 1.297 3.417.967.967 2.14 1.239 3.417 1.297C8.332 23.987 8.741 24 12 24c3.259 0 3.668-.013 4.948-.072 1.277-.058 2.45-.33 3.417-1.297.967-.967 1.239-2.14 1.297-3.417.059-1.28.072-1.689.072-4.948 0-3.259-.013-3.668-.072-4.948-.058-1.277-.33-2.45-1.297-3.417-.967-.967-2.14-1.239-3.417-1.297C15.668.013 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a3.999 3.999 0 1 1 0-7.998 3.999 3.999 0 0 1 0 7.998zm6.406-11.845a1.44 1.44 0 1 0 0 2.88 1.44 1.44 0 0 0 0-2.88z"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-8 right-8 z-50 bg-red-600 text-white p-3 rounded-full shadow-lg opacity-0 transition-opacity duration-300 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-blue-400" aria-label="Back to top">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/></svg>
+  </button>
+
+  <footer id="contact" class="relative z-10 px-8 py-10 bg-[#0a1833]/90 text-blue-100 flex flex-col md:flex-row items-center justify-between gap-6">
+    <div>
+      <span class="text-lg font-bold" style="font-family: 'Space Grotesk', sans-serif;">Justice For All</span>
+      <p class="text-sm mt-2">© 2025 Justice For All. All rights reserved.</p>
+    </div>
+    <div class="flex gap-6">
+      <a href="#" class="hover:text-red-400 transition">Privacy Policy</a>
+      <a href="#" class="hover:text-red-400 transition">Terms of Service</a>
+      <a href="mailto:info@justiceforall.org" class="hover:text-red-400 transition">info@justiceforall.org</a>
+    </div>
+  </footer>
+</body>
+</html>
